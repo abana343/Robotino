@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:id="@+id/imageButton7"
+            android:layout_gravity="left|bottom"
+            android:src="@drawable/ccl"
+            android:layout_marginBottom="76dp"
+            android:onClick="gizquierda"
+            android:background="@drawable/btn_circle"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:nestedScrollingEnabled="false" />
+
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:id="@+id/imageButton8"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/cl"
+            android:layout_marginBottom="76dp"
+            android:background="@drawable/btn_circle"
+            android:adjustViewBounds="false"
+            android:onClick="gderecha" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton9"
+            android:layout_gravity="bottom|center_horizontal"
+            android:src="@drawable/n"
+            android:layout_marginBottom="157dp"
+            android:background="@drawable/btn_circle"
+            android:onClick="adelante" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton10"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/s"
+            android:background="@drawable/btn_circle"
+            android:onClick="atras" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton11"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/stop"
+            android:layout_marginBottom="76dp"
+            android:background="@drawable/btn_circle"
+            android:onClick="parar" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton12"
+            android:layout_gravity="bottom|center_horizontal"
+            android:src="@drawable/sw"
+            android:background="@drawable/btn_circle"
+            android:layout_marginRight="76dp"
+            android:onClick="dSO" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton13"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/so"
+            android:background="@drawable/btn_circle"
+            android:layout_marginLeft="76dp"
+            android:onClick="dSE" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton14"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/w"
+            android:background="@drawable/btn_circle"
+            android:layout_marginBottom="76dp"
+            android:layout_marginRight="76dp"
+            android:onClick="izquierda" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton15"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/o"
+            android:background="@drawable/btn_circle"
+            android:layout_marginBottom="76dp"
+            android:layout_marginLeft="76dp"
+            android:onClick="derecha" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton16"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/nw"
+            android:layout_marginBottom="152dp"
+            android:layout_marginRight="76dp"
+            android:background="@drawable/btn_circle"
+            android:onClick="dNO" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageButton17"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/no"
+            android:layout_marginBottom="152dp"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/btn_circle"
+            android:onClick="dNE" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="277dp"
+            android:id="@+id/camara1"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+</LinearLayout>

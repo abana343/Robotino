@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/textViewIDRuta"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textViewNombreRuta"
+        android:layout_width="172dp"
+        android:layout_height="match_parent"
+        android:text="Nombre"
+        android:textSize="50px"
+        android:gravity="center_vertical">
+    </TextView>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="end|right">
+
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargar"
+        android:id="@+id/buttonCargarRuta"
+        android:layout_row="0"
+        android:layout_column="20"
+        android:layout_weight="0.22"
+        android:textSize="13dp"
+        android:onClick="onClickButtonCargarRuta" />
+
+
+</LinearLayout>
+
+

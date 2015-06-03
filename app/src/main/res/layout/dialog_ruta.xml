@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNombreRuta"
+        android:layout_marginTop="19dp"
+        android:layout_centerHorizontal="true"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nombre" />
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:id="@+id/dialogButtonCancelar"
+            android:layout_alignTop="@+id/dialogButtonGuardar"
+            android:layout_alignLeft="@+id/editTextNombreRuta"
+            android:layout_alignStart="@+id/editTextNombreRuta"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/dialogButtonGuardar"
+            android:layout_below="@+id/editTextNombreRuta"
+            android:layout_alignRight="@+id/editTextNombreRuta"
+            android:layout_alignEnd="@+id/editTextNombreRuta"
+            android:layout_marginRight="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_weight="0.06" />
+    </GridLayout>
+
+
+</LinearLayout>

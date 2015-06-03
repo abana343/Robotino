@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Robotino</string>
+    <string name="action_settings">configuración</string>
+    <string name="action_conectar">Conectar</string>
+    <string name="action_ayuda">Ayuda</string>
+    <string name="action_galeria">galeria</string>
+    <string name="action_rutas">rutas</string>
+    <string name="title_activity_ruta">RutaActivity</string>
+    <string name="title_activity_movimiento">movimiento</string>
+    <string name="title_activity_listar_ruta">ListarRutaActivity</string>
+    <string name="ipwebservice">172.26.201.4</string>
+    <string name="iprobotino">172.26.201.3</string>
+    <string name="title_activity_sensores">sensores</string>
+</resources>
